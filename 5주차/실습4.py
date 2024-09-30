@@ -28,7 +28,6 @@ print(numbers)
 
 letters = set('abc')
 print(letters)
-'''
 
 fruits = {'apple', 'banana', 'grape'}
 for x in fruits:
@@ -37,3 +36,23 @@ for x in fruits:
 fruits = {'apple', 'banana', 'grape'}
 for x in sorted(fruits):
     print(x, end=' ')
+    
+# 딕셔너리_이름 = {키1: 값1, 키2: 값2, 키3: 값3, ...}
+
+s = "Welcome to Python"
+print(s.split())
+
+s = "Hello, World!"
+print(s.split(","))
+
+s = "Hello, World!"
+print(s.split(", "))
+
+print(list("Hello, World!"))
+
+'''
+
+
+print(",".join(["apple", "grape", "banana"]))
+
+print("-".join("010.1234.5678".split(".")))
